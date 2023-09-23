@@ -7,13 +7,19 @@
     max-width: 550px;
     margin: 0 auto;
 }
+body,
+header,
+main,
+ul.nav-menu {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     display: grid;
     grid-template-columns: 110px auto;
     align-items: center;
     background-color: royalblue;
-    /* border-radius: 10px 10px 10px 10px; */
     margin: 0; /* Add this line to remove margin */
     padding: 0;
     
@@ -68,8 +74,8 @@ ul.nav-menu li a:hover {
     background-color: royalblue;
     color: white;
     padding: 20px;
-    /* border-radius: 10px;
-    margin: 20px; */
+    border-radius: 10px;
+    /* margin: 20px 0; Add margin to separate containers */
 }
 
 .container h3 {
@@ -117,9 +123,9 @@ p {
 
 .footer {
     background-color: royalblue;
-    margin: 0px;
+    /* margin: 0px;
     margin-top: 50px;
-    padding: 20px;
+    padding: 20px; */
     /* border-radius: 10px 10px 10px 10px; */
     color: seashell;
 }
