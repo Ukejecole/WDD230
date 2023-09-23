@@ -27,13 +27,14 @@ header {
 }
 
 .image {
-    margin: 15px;
+    /* margin: 15px; */
+    width: 100%;
 }
 
 h1 {
     margin: 12px;
     font-family: 'Fredoka One', cursive, sans-serif;
-    color: seashell;
+    color: white;
     
 }
 
@@ -88,7 +89,7 @@ ul.nav-menu li a:hover {
 }
 
 h3 {
-    color: #333;
+    color: white;
     font-size: 1.5rem;
 }
 
