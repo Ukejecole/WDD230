@@ -10,7 +10,8 @@
 body,
 header,
 main,
-ul.nav-menu {
+ul.nav-menu,
+.container {
     margin: 0;
     padding: 0;
 }
