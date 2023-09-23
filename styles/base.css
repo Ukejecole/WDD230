@@ -13,7 +13,9 @@ header {
     grid-template-columns: 110px auto;
     align-items: center;
     background-color: royalblue;
-    border-radius: 10px 10px 10px 10px;
+    /* border-radius: 10px 10px 10px 10px; */
+    margin: 0; /* Add this line to remove margin */
+    padding: 0;
     
 }
 
@@ -41,7 +43,6 @@ h2 {
  /* Style for the navigation menu */
  ul.nav-menu {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     background-color: black;
     border-radius: 0; 
@@ -50,7 +51,7 @@ h2 {
 
 ul.nav-menu li {
     display: block; 
-    margin-bottom: 10px; 
+    /* margin-bottom: 10px;  */
 }
 
 ul.nav-menu li a {
@@ -67,8 +68,8 @@ ul.nav-menu li a:hover {
     background-color: royalblue;
     color: white;
     padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
+    /* border-radius: 10px;
+    margin: 20px; */
 }
 
 .container h3 {
