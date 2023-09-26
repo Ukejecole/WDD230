@@ -1,37 +1,20 @@
-/* @media only screen and (min-width: 400px) and (max-width:600px) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr fr;
-        display:inline;
-        grid-gap: 1em;   
-    }
-/* } */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* CSS rules for medium screens go here */
-    main {
-        display: grid;
-        /* grid-template-columns: 1fr 1fr; */
-        grid-template-columns: repeat(2, 1fr); 
-        display:inline;
-        grid-gap: 1em;   
-    }
-  } */
+/* medium.css */
 
+/* Default styles for your design principles cards */
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Media query for medium screens (min-width: 768px) */
+@media only screen and (min-width: 768px) {
   main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    display: block;
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
-  @media only screen and (min-width: 768px){
-    main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .grid-item:nth-last-child(-n+2) {
-        grid-row: 2;
-      }
-      .grid-item:last-child {
-        grid-row: 3;
-      }
+
+  /* Select the last two cards and move them to the second row */
+  .grid-item:nth-last-child(-n+2) {
+    grid-row: 2;
   }
+}
