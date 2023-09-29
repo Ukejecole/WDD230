@@ -51,15 +51,15 @@ h2 {
  /* Style for the navigation menu */
  ul.nav-menu {
     list-style-type: none;
-    padding: 0;
+    padding: 5px;
     background-color: black;
     border-radius: 0; 
 
 }
 
 ul.nav-menu li {
-    display: block; 
-    /* margin-bottom: 10px;  */
+    display: inline; 
+    margin-right: 10px;
 }
 
 ul.nav-menu li a {
@@ -76,8 +76,8 @@ ul.nav-menu li a:hover {
     background-color: royalblue;
     color: white;
     padding: 20px;
-    border-radius: 10px;
-    /* margin: 20px 0; Add margin to separate containers */
+    border-radius: 5px;
+    /* margin: 20px 0;  */
 }
 
 .container h3 {
@@ -85,7 +85,21 @@ ul.nav-menu li a:hover {
 }
 
 .card {
-    padding: 10px;
+display: block;
+width: 500px;
+height:280px;
+padding:10px;
+border: 2px solid;
+margin:20px;
+
+}
+.card-2 {
+    display: block;
+    width: 500px;
+    height:100px;
+    padding:10px;
+    border: 2px solid;
+    margin:20px;
 }
 
 h3 {
@@ -111,6 +125,8 @@ a {
 p {
     margin: 8px 0;
     font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
 }
 
 #last {
@@ -125,15 +141,7 @@ p {
 
 .footer {
     background-color: royalblue;
-    /* margin: 0px;
+    margin: 0px;
     margin-top: 50px;
-    padding: 20px; */
-    /* border-radius: 10px 10px 10px 10px; */
-    color: seashell;
-}
-
-@media screen and (max-width: 550px) {
-    .home-grid {
-        display: block;
-    }
+    padding: 20px; 
 }
