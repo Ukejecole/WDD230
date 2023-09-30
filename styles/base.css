@@ -42,6 +42,75 @@ h2 {
     font-family: 'Fredoka One', Georgia, sans-serif;
     text-align: left;
 }
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖";
+}
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "📍 ";
+}
+
+
+.active {
+	background-color: gray;
+}
+
+/* large view navigation ************************************/
+@media (min-width: 37.5em) {
+h1 {
+    font-size: 2.5rem;
+    margin-left: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#menu {
+    display: none; /* hide hamburger button */
+}
+
+.nav-menu {
+    flex-direction: row;
+}
+
+.nav-menu li {
+    display: inline-block;
+    flex: 1 1 100%;
+}
+.container-2 {
+    justify-content: right;
+}
+
+}
+
+
 
 
 #some {
@@ -58,21 +127,31 @@ h2 {
 }
 
 ul.nav-menu li {
-    display: inline; 
+    display: inline-block; 
     margin-right: 10px;
+    padding: 10px;
 }
 
 ul.nav-menu li a {
     text-decoration: none;
     color: white;
-    padding: 8px 16px;
-    display: block; 
+    display: flex;
+    flex-direction: column;
+
+    text-align: center; 
 }
 
 ul.nav-menu li a:hover {
     background-color: #555;
 }
 .container {
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    /* margin: 20px 0;  */
+}
+.container-2 {
     background-color: royalblue;
     color: white;
     padding: 20px;
