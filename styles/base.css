@@ -16,10 +16,17 @@ ul.nav-menu,
     padding: 0;
 }
 
-map{
-    padding: 0;
-    width: auto;
-    height: auto;
+.google-map{
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
 
 header {
@@ -33,7 +40,6 @@ header {
 }
 
 .image {
-    /* margin: 15px; */
     width: 100%;
 }
 
@@ -87,7 +93,7 @@ h2 {
 
 /* large view navigation ************************************/
 /* Large screens */
-@media screen and (min-width: 1200px) {
+@media (min-width: 37.5em) {
     /* Add specific styles for large screens here */
 }
 
