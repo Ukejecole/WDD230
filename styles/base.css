@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 #content {
-    max-width: 550px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 0px auto;
 }
 body,
 header,
@@ -14,6 +14,12 @@ ul.nav-menu,
 .container {
     margin: 0;
     padding: 0;
+}
+
+map{
+    padding: 0;
+    width: auto;
+    height: auto;
 }
 
 header {
@@ -80,7 +86,11 @@ h2 {
 }
 
 /* large view navigation ************************************/
-@media (min-width: 37.5em) {
+/* Large screens */
+@media screen and (min-width: 1200px) {
+    /* Add specific styles for large screens here */
+}
+
 h1 {
     font-size: 2.5rem;
     margin-left: 0;
@@ -107,11 +117,6 @@ h2 {
 .container-2 {
     justify-content: right;
 }
-
-}
-
-
-
 
 #some {
     text-align: left;
@@ -165,8 +170,8 @@ ul.nav-menu li a:hover {
 
 .card {
 display: block;
-width: 500px;
-height:280px;
+width: auto;
+height:auto;
 padding:10px;
 border: 2px solid;
 margin:20px;
@@ -174,8 +179,8 @@ margin:20px;
 }
 .card-2 {
     display: block;
-    width: 500px;
-    height:100px;
+    width: auto;
+    height:auto;
     padding:10px;
     border: 2px solid;
     margin:20px;
