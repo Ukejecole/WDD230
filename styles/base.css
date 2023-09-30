@@ -86,6 +86,14 @@ h2 {
 	content: "📍 ";
 }
 
+.stuff {
+	margin: .5m;
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: #bed;
+	max-width: 580px;
+	height: 100vh;
+	
+}
 
 .active {
 	background-color: gray;
@@ -119,6 +127,7 @@ h2 {
 .nav-menu li {
     display: inline-block;
     flex: 1 1 100%;
+    margin-right: 10px;
 }
 .container-2 {
     justify-content: right;
@@ -209,7 +218,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #0074d9;
+    color: #02203a;
 }
 
 p {
