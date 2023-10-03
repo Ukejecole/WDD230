@@ -13,49 +13,14 @@ footer {
     padding: 20px;
 }
 
-nav a:hover {
-    background-color: #708080;
-    color: #0D1321
-}
-
 h2,
 h3 {
     color: #262829;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.3em;
-    font-family: Libre Baskerville;
-}
-
-nav a {
-    display: block;
-    color: #414344;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-nav div {
-    flex: 1 1 auto;
-}
-
-.link1,
-.link2,
-.link3,
-.link4,
-.link5 {
-    text-decoration: none;
-    padding: 10px;
-    color: #16181a;
-}
-
 body {
-    background-color: #e29714;
+    background-color: #cecdd1;
     font-family: 'Dongle', Times, serif;
     font-size: 35px;
 }
@@ -68,13 +33,9 @@ footer {
     color: #262829;
 }
 
-/***********************************************/
 
 
 /** Media Queries for larger views *************/
-
-
-/***********************************************/
 
 @media (min-width: 37.5em) {
     nav {
@@ -96,3 +57,27 @@ footer {
         font-size: 1.3rem;
     }
 }
+
+/* Define the styles for the container */
+.box-container {
+    display: flex; /* Use flexbox to align the boxes horizontally */
+  }
+  
+  /* Define the styles for each box */
+  .box {
+    width: 600px; /* Set the width of each box */
+    height: 350px;
+    justify-content: center;
+    align-items: center; /* Set the height of each box */
+    /* margin: 10px; Add some margin for spacing between the boxes */
+  }
+  
+  /* Define the background colors for each box */
+  .box1 {
+    background-color: #800000; 
+  }
+  
+  .box2 {
+    background-color: #f5f5f5; 
+  }
+  
