@@ -37,7 +37,7 @@ h2 {
     display: grid;
     grid-template-columns: 60% 1fr 1fr;
     grid-template-rows: 1fr min-content;
-    background-color: #141516;
+    background-color: #800000;
     color: whitesmoke;
     height: min-content;
     font-family: 'Inconsolata', monospace;
@@ -164,7 +164,7 @@ main div#hero{padding: 0px;}
     font-weight: bolder;
     font-size: larger;
     font-family: 'Abel', monospace;
-    background-color: #010d1460;
+    background-color: #800000;
     margin: 1rem;
     color: #fab727;
     box-shadow: 0px 0px 5px black;
@@ -184,7 +184,7 @@ main div#hero{padding: 0px;}
     width: 100%;
 }
 .sub {
-    background: #042b42;
+    background: #800000;
     text-align: center;
 }
 
@@ -252,7 +252,7 @@ button :nth-child(2) {
 }
 
 .placeholder-spotlights {
-    background: #042b42;
+    background: #800000;
     color: gray;
     height: fit-content;
     margin: 10px;
@@ -268,7 +268,7 @@ button :nth-child(2) {
     display: grid;
         justify-items: center;
         background: whitesmoke;
-        color: #010d14;
+        color: #800000;
         width: auto;
         height: fit-content;
         padding-bottom: 1rem;
@@ -284,7 +284,7 @@ footer {
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
-    background-color: #141516;
+    background-color: #800000;
     color: whitesmoke;
     align-items: center;
     text-align: center;
@@ -323,7 +323,7 @@ footer hr{
 
 .hero #join-btn:hover {
     transition: all 0.2s;
-    color: #010d14;
+    color: #800000;
     background-color: #ce910f;
     font-weight: bolder;
     height: 3rem;
