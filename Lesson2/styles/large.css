@@ -7,10 +7,18 @@
     margin: 0 auto;
 }
 
+
 header {
     background-color: #212D40;
     border-radius: 10px 10px 10px 10px;
     padding: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    height: 100%;
 }
 
 h1 {
@@ -26,13 +34,6 @@ h1 {
     margin: auto;
 }
 
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
-    height: 100%;
-    
-}
 
 
 h2 {
@@ -40,6 +41,11 @@ h2 {
     color: seashell;
     background-color: #212D40;
     padding: 10px;
+}
+
+#Iyip {
+    text-align: center;
+    font-family: 'Fredoka One', cursive, sans-serif;
 }
 
 #demo {

@@ -1,9 +1,17 @@
-const options = {year: 'numeric'}
-document.getElementById('year').textContent = new Date().toLocaleDateString('en-us', options)
+'use strict'
+const footerEl = document.querySelector("footer");
+
+const curDate = new Date();
+const year = curDate.getFullYear();
+let lastModifiedDate = new Date(document.lastModified);
+
+let modYear = lastModifiedDate.getFullYear();
+let modDay = lastModifiedDate.getDay();
+let modMonth = lastModifiedDate.getMonth();
+let modminute = lastModifiedDate.getMinutes();
+let modsecond = lastModifiedDate.getSeconds()
+let modhour = lastModifiedDate.getHours(); 
 
 
-const date = new Date(document.lastModified);
-const lastModifiedDate = date.toLocaleDateString();
-const lastModifiedTime = date.toLocaleTimeString();
-document.getElementById('date').textContent = lastModifiedDate
-document.getElementById("time").textContent = lastModifiedTime
+footerEl.insertAdjacentHTML("afterbegin", `
+&#169 ${year} | Ukeje Cole | Last Updated: ${modMonth}/${modDay}/${modYear} ${modhour}:${modminute}:${modsecond}`);
