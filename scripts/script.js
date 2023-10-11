@@ -7,7 +7,7 @@ let modYear = lastModifiedDate.getFullYear();
 let modDay = lastModifiedDate.getDay();
 let modMonth = lastModifiedDate.getMonth();
 let modminute = lastModifiedDate.getMinutes();
-let modsecond = lastModifiedDate.getSeconds()
+let modsecond = lastModifiedDate.getSeconds();
 let modhour = lastModifiedDate.getHours(); 
 
 footerHead.insertAdjacentHTML("afterbegin", `&#169 ${year} | Ukeje Cole | Nigeria`);
