@@ -1,0 +1,20 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, main, footer{
+    max-width: 640px;
+    margin:1rem auto;
+    padding: 20px;
+    background-color: burlywood;
+    border:1px solid #bbb;
+}
+ main{
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: 1fr;
+
+ }
+ section{
+    padding:20px;
+ }
