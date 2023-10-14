@@ -1,29 +1,29 @@
-const listEl = document.querySelector(".list");
-const inputEl = document.querySelector("#chapter");
-const addBtn = document.querySelector(".add-btn");
+const input = document.querySelector('#favchap');
+const button = document.querySelector('button');
+const list = document.querySelector('#list');
+const chapters = ['1 Nephi', '2 Nephi', 'Jacob', 'Enos', 'Jarom', 'Omni', 'Words of Mormon', 'Mosiah', 'Alma', 'Helaman', '3 Nephi', '4 Nephi', 'Mormon', 'Ether', 'Moroni']
 
 
-const runList = function() {
-    if(inputEl.value != ""){ 
-    const value = inputEl.value;
-    inputEl.value ="";
-    const listItem = document.createElement("li");
-    const span = document.createElement("span");
-    const btn = document.createElement("button");
-    listItem.appendChild(span);
-    listItem.appendChild(btn);
-    span.textContent = value;
-    btn.textContent = "❌";
-    listEl.appendChild(listItem);
-    btn.setAttribute("aria-label", `Close ${value}`)
-    btn.addEventListener("click", function(){
-        listItem.remove();
-        inputEl.focus();
-    });
-    inputEl.focus();
-};
+button.addEventListener('click', function() {
+    if (input.value != '')
+        {
+            input.focus();
 
-};
-
-addBtn.addEventListener("click", runList);
-document.addEventListener("keydown", (e) => e.key == "Enter"? runList() : "");
+            const li = document.createElement('li');
+            const deletebutton = document.createElement('button');
+            
+            li.textContent = input.value;
+            deletebutton.textContent = '❌';
+            
+            li.append(deletebutton);
+            list.append(li);
+            
+            deletebutton.addEventListener('click', function(){
+                list.removeChild(li);
+                input.focus();
+            });
+            
+            input.focus();
+            input.value = '';
+        }
+});

@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Ukeje Chinemerem">
+    <meta name="description" 
+        content=" DOM week5 - WDD230.">
+    <title>Book of Mormon Favorite Chapter</title>
     <link rel="stylesheet" href="style/base.css">
-    <title>BOM</title>
 </head>
-
 <body>
-    <header>
-        <h1>📘Book of Mormon - Top 10</h1>
-    </header>
+    <h1>Book of Mormon - Top 10</h1>
     <main>
-        <div class="entry-area">
-            <label for="chapter">Enter Book and Chapter: </label>
-            <input type="text" name="chapter" id="chapter">
-            <button class="add-btn">Add Chapter</button>
-        </div>
-        <div class="listcontainer">
-            <ul class="list">
-                <!-- JS! -->
-
-            </ul>
-        </div>
+        <label for="favchap">Enter Book and Chapter: </label>
+        <input type="text" id="favchap" placeholder="Moroni 10" value="Moroni 10">
+        <button type="submit">Add Chapter</button>
+        <ul id="list"></ul>
     </main>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
 </body>
-
 </html>
