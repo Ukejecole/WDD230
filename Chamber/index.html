@@ -50,13 +50,24 @@
         <div class="banner hide"><p>🤝🏼 Come join us for our Weekly Meetings every Monday</p> <div id="hex">&#10005;</div></div>
     </header>
     <main>
-        <div class="block event sub">
+        <div class="block hero" id="hero">
+            <picture id="heroPhoto">
+               <source media="(min-width: 1000px)" srcset="images/hero-large.jpg">
+               <source media="(min-width: 600px)" srcset="images/hero-medium.jpg">
+               <source media="(min-width: 300px)" srcset="images/hero-small.jpg">
+                <img src="images/hero-base.jpg" alt="Chamber members in meeting">
+            </picture>
+            <h2>Welcome to the <br/><span>Houston Chamber of Commerce</span></h2>
+            <a href="join.html" id="join-btn">Join the Chamber
+            </a>
+            </div>
+        <div class="block event sub" id="dark-1">
             <h2>Business Workshop and Seminar</h2>
             <h3>Exness Business</h3>
             <p>Join us for the grand opening of Exness Business and uncover diverse ways to make.
                  money from our Business Trainings and seminar</p>
         </div>
-        <div class="block weather sub">
+        <div class="block weather sub" id="dark-2">
             <h2>Weather</h2>
             <img id="weather-icon" src="images/sunny.webp" alt="sunny icon">
             <h3><span id="temp">27</span>°C</h3>
@@ -65,21 +76,21 @@
             <p>Wind Speed:<span id="wind-speed">7</span>km/h</p>
             <p>Wind Chill:<span id="wind-chill">N/A</span></p>
         </div> 
-        <div class="block join">
+        <div class="block join" id="dark-3">
             <a href="join.html">Join Us Today!</a>
             <div class="numbers">With over <span>102</span> and counting different firms.</div>
             <p>
                 Discover how to join Houston chamber of commerce and how it will benefit your organization!
             </p>
         </div>
-        <div class="block news sub">
+        <div class="block news sub" id="dark-4">
             <h2>News Release</h2>
             <div class="numbers">The Economic Outlook for Houston</div>
             <p>    
                 The recent outbreak of inflation began in earnest in early 2021. After 15 years of the Federal Reserve not being able to push inflation high enough to meet its 2.0 percent price target, just 15 months later CPI inflation was peaking at 8.6 percent based on 12-month annual changes
             </p>
         </div>
-        <div class="placeholder-spotlights" id="spotlights">
+        <div class="placeholder-spotlights" id="spotlights" id="dark-5">
             <div class="spotlight" id="spot-1">  
             </div>
             <div class="spotlight" id="spot-2"> 
@@ -89,13 +100,13 @@
                             
         </div>
         <footer>
-            <div class="first-half">
+            <div class="first-half" id="dark-6">
                 <div class="first-half-1">
                     <img class="footer-logo logo-img" src="images/icon.webp" alt="Houston Chamber of commerce logo">
                     <h2>Houston Chamber of Commerce</h2>
                     <span id="address">5500 Kirby Dr. Houston , TX 77005</span>
                 </div>
-                <div class="first-half-2">
+                <div class="first-half-2" id="dark-7">
                     <span id="email">info@htxchamberofcommerce.org</span>
                     <span id="phone">713-218-2257. 713-218-2257.</span>
                     <span id="map">📍 Location Map</span>
@@ -120,5 +131,4 @@
     </main>
 </div>
 </body>
-
 </html>

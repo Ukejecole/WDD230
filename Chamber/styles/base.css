@@ -342,15 +342,7 @@ button :nth-child(2) {
     display: none;
 }
 
-footer {
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    background-color: #800000;
-    color: whitesmoke;
-    align-items: center;
-    text-align: center;
-}
+
 
 .first-half {
     display: flex;
@@ -364,6 +356,17 @@ footer {
     flex-direction: column;
     font-family: 'Inconsolata', monospace;
 }
+
+footer {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #800000;
+    color: whitesmoke;
+    align-items: center;
+    text-align: center;
+}
+
 
 .footer-logo {
     padding: 0px;

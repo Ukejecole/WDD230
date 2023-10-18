@@ -1,5 +1,5 @@
 const toggle = document.querySelector("#toggle");
-const main = document.querySelector("main");
+const main = document.querySelector("main, dark-1, dark-2, dark-3, dark-4, dark-4, dark-6");
 
 toggle.addEventListener("change", () => {
   if (toggle.checked) {
