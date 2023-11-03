@@ -168,3 +168,59 @@
         padding: 2rem;
     }
 }
+    /* Join page */
+    form{
+        width: 30rem;
+    }
+    .main-join-area{
+       max-width: 50rem;
+    }
+    fieldset{
+        width: 28rem;
+    }
+    #description{
+        width: 29.8rem;
+    }
+         /* ////////////////////////// */
+     /* Directory */
+     .grid-directory{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 2rem;
+     }
+     .flex-directory{
+        display: grid;
+        gap:0px;
+     }
+     .company:hover{
+        padding: 0.3rem;
+        background-color:  #141516;
+        color: whitesmoke;
+        transition: all 0.3s;
+     }
+     .list-company{
+        font-size: large;
+     }
+     .list-company:hover{
+        padding:0.625rem;
+        text-align: left;
+        background-color: white;
+        color: #141516;
+    }
+     .company{
+        padding:10px;
+     }
+
+     /* Contact */
+
+     iframe{
+        width: 90%;
+     }
+     .contact-form{
+        width: 60vw;
+    }
+    .contact-form .join-btn{
+        width: 50%;
+    }
+    
