@@ -1,0 +1,79 @@
+{
+    "new-ward-members": [
+        {
+            "family_name": "Declan Ukeje",
+            "moved_date": "12-3-2010",
+            "num_members": 4,
+            "visitedByBishopric": 1,
+            "members": [
+                {
+                    "name": "Ukeje Cole",
+                    "gender": "M",
+                    "birthdate": "12 dec 1994"
+                },
+                {
+                    "name": "Ukeje Ngozi",
+                    "gender": "F",
+                    "birthdate": "17 sep 1995"
+                },
+                {
+                    "name": "Ukeje Ifeanyi",
+                    "gender":"M",
+                    "birthdate": "10 Jan 1999"
+                }
+            ]
+        },
+        {
+            "family_name": "Gad Thompspn",
+            "moved_date": "10-25-2015",
+            "num_members": 5,
+            "visitedByBishopric": 1,
+            "members":[
+                {
+                    "name": "Evelyn Thompson",
+                    "gender": "M",
+                    "birthdate": "12 dec 1987"
+                },
+                {
+                    "name": "Chinonye Thompson",
+                    "gender": "F",
+                    "birthdate": "12 dec 1987"
+                },
+                {
+                    "name": "Patricia Thompson",
+                    "gender": "F",
+                    "birthdate":"12 dec 1987"
+                },
+                {
+                    "name": "Patience Thompson",
+                    "gender": "F",
+                    "birthdate": "12 dec 1987"
+                },
+                {
+                    "name": "Anita Thompson",
+                    "gender": "F",
+                    "birthdate":"12 dec 1987"
+                }
+            ]
+
+        },
+        {
+            "family_name": "Ukeje Teniola",
+            "moved_date": "10-25-2023",
+            "num_members": 2,
+            "visitedByBishopric": 0,
+            "members":[
+                {
+                    "name": "Teniola Ukeje ",
+                    "gender": "F",
+                    "birthdate": "10 Oct 2004"
+                },
+                {
+                    "name": "Grace Ukeje",
+                    "gender": "F",
+                    "birthdate": "06 Feb 2022"
+                }
+            ]
+        }
+    ]
+}
