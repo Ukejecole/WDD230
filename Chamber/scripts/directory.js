@@ -1,4 +1,4 @@
-const directoryUrl = "https://ukejecole.github.io/wdd230/chamber/data/members.json";
+const directoryUrl = "https://raw.githubusercontent.com/Ukejecole/wdd230/main/members.json";
 const directoryCont = document.querySelector(".directory-container");
 const listBtn = document.querySelector(".list-view-icon");
 const gridBtn = document.querySelector(".grid-view-icon");
