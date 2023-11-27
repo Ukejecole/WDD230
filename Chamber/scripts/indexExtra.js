@@ -1,3 +1,14 @@
+const spot1 = document.getElementById("spot-1");
+const spot2 = document.getElementById("spot-2");
+const spot3 = document.getElementById("spot-3");
+const directoryUrl = "https://raw.githubusercontent.com/Ukejecole/wdd230/main/Chamber/data/members.json";
+const windSpeed = document.querySelector("#wind-speed");
+const windchill = document.querySelector("#wind-chill");
+const temperature = document.querySelector("#temp");
+const weatherIcon = document.querySelector("#weather-icon")
+const locationWeather = document.querySelector("#location-weather")
+const weatherURL = "https://api.openweathermap.org/data/2.5/weather?q=Lagos&units=metric&appid=9759bf8ad638b8f6a851effbef8116f6";
+
 
 async function getWeather(){
     const weatherFetch = await fetch(weatherURL);
